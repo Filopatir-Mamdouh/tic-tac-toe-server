@@ -10,9 +10,9 @@ public class DatabaseConnection {
 
         try{
 
-            String url ="jdbc:mysql://localhost:8889/tictactoe";
-            String userName="amira";
-            String password ="";
+            String url ="Enter Connection Link";
+            String userName="Enter Database Name";
+            String password = "Enter Password";
             con = DriverManager.getConnection(url,userName,password);
 
         }catch (SQLException e){
